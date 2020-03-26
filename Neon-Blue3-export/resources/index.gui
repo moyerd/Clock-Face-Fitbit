@@ -1,0 +1,57 @@
+<svg id="root">
+  
+ 
+  <rect id="background" /> 
+
+  <g id="hr"> 
+    <text id="hr-count" class="count sideCount">56</text>
+    <image id="hr-icon-systole" class="icon" href="stat_hr_solid_24px.png" />
+    <image id="hr-icon-diastole" class="icon" href="stat_hr_solid_24px.png" />
+  </g>
+ 
+  <g id="steps">
+    <text class="count">777</text>
+    <image  class="icon" href="stat_steps_solid_24px.png" />
+  </g>
+  <g id="distance">   
+    <text class="count">777</text>
+    <image id="distance-icon" class="icon" href="stat_dist_solid_24px.png" />
+  </g>
+  <g id="elevationGain">  
+    <text class="count">777</text>
+    <image id="elevationGain-icon" class="icon" href="stat_floors_solid_24px.png" />
+  </g>
+  <g id="calories">  
+    <text class="count">777</text>
+    <image id="calories-icon" class="icon" href="stat_cals_solid_24px.png" />
+  </g> 
+  <g id="activeMinutes">
+   
+    <text class="count">777</text>
+    <image id="activeMinutes-icon" class="icon" href="stat_am_solid_24px.png" />
+  </g>
+  
+  <g>
+  <rect id="battery-line" x="0%" y="0%" width="100%" height="2%" fill="fb-white" />
+  </g>
+  
+  <g>
+  <text id="batteryLabel" class="text" />
+  </g>
+    
+  <g id="clock">
+  <text id="time"/>
+  </g>
+  
+  <text id="ionicAmPm"/>
+  <text id="versaAmPm"/>
+  <text id="second"/>
+ 
+  <g id="calendar">
+    <text id="day"/>
+    <text id="date"/>
+  </g>
+  
+  
+
+</svg>
